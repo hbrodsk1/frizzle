@@ -1,0 +1,125 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  line-height: 1.428;
+  font: inherit;
+  vertical-align: baseline; }
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block; }
+
+body {
+  line-height: 1; }
+
+ol, ul {
+  list-style: none; }
+
+blockquote, q {
+  quotes: none; }
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none; }
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+h1 {
+  font-size: 36px; }
+
+h2 {
+  font-size: 30px; }
+
+h3 {
+  font-size: 24px; }
+
+h4 {
+  font-size: 18px; }
+
+h5 {
+  font-size: 14px; }
+
+h6 {
+  font-size: 12px; }
+
+/* Grid */
+.row {
+  padding: 0 2%;
+  *zoom: 1; }
+  .row:after, .row:before {
+    content: ' ';
+    display: table; }
+  .row:after {
+    clear: both; }
+  .row > [class*='col-']:first-child {
+    margin-left: 0; }
+  .row > [class*='col-']:last-child {
+    margin-right: 0; }
+  .row > [class*='col-'] {
+    margin: 0 1%; }
+
+[class*="col-"] {
+  float: left;
+  min-height: 200px;
+  background-color: #dedede;
+  border: 1px solid #000; }
+
+.col-1-12 {
+  width: 6.5%; }
+
+.col-2-12 {
+  width: 15%; }
+
+.col-3-12 {
+  width: 23.5%; }
+
+.col-4-12 {
+  width: 32%; }
+
+.col-5-12 {
+  width: 40.5%; }
+
+.col-6-12 {
+  width: 49%; }
+
+.col-7-12 {
+  width: 57.5%; }
+
+.col-8-12 {
+  width: 66%; }
+
+.col-9-12 {
+  width: 74.5%; }
+
+.col-10-12 {
+  width: 83%; }
+
+.col-11-12 {
+  width: 91.5%; }
+
+.col-12-12 {
+  width: 100%; }
+
+/*# sourceMappingURL=frizzle.css.map */
