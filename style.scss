@@ -1,0 +1,284 @@
+@import 'variables';
+
+body {
+	background: #F5F5F5 url("textured_paper.png");
+	border-bottom: 1px solid #e4e6ec;
+}
+
+.nav-bar {
+	background-color: $nav-bar-color;
+	height: 55px;
+
+	nav {
+		margin: auto;
+		height: 100%;
+
+		ul {
+			position: relative;
+			float: left;
+			left: 2%;
+			text-align: center;
+			height: 100%;
+
+			li {
+				color: #f9f8fa;
+				position: relative;
+    			display: inline-block;
+    			line-height: 5.5;
+    			font-size: 11px;
+    			padding: 0 18px 0 0;
+    			text-decoration: none;
+    			text-transform: uppercase;
+    			letter-spacing: 2px;
+    		}
+		}
+	}	
+}
+
+.main {
+	margin: auto;
+
+	.news {
+		height: 234px;
+
+		.logo {
+			position: relative;
+			top: 5%;
+			height: 208px;
+			float: left;
+
+			img {
+				position: absolute;
+				height: 207px;
+				display: table-cell;
+				border: none;
+			}
+		}
+
+		.announcement {
+			position: relative;
+			top: 30%;
+			min-height: 0;
+			height: 66px;
+  			line-height: 66px;
+  			border: none;
+
+  			.gophish {
+  				display: inline-block;
+  				vertical-align: middle;
+  			    color: #535046;
+    			font-family: "function_probook", Arial, sans-serif;
+  				line-height: 35px;
+  				font-size: 24px;
+  			} 
+		}
+	}
+}
+
+.content {
+
+	.pieces {
+
+		.theworks {
+			position: relative;
+
+			.latest-gallery-wrapper {
+				margin-top: -35px;
+			}
+
+			.latest-gallery-third-wrapper {
+				margin-top: -310px;
+			}
+
+			.now-available-second-wrapper {
+				margin-top: -170px;
+				float: left;
+			}
+
+			.livephish-video-wrapper {
+				margin-top: -29px;
+			}
+
+			.half-screen {
+				width: 48.9%;
+			}
+
+			.workbox-wrapper {
+				float: left;
+				position: relative;
+				margin-right: 1.67%;
+				margin-bottom: 20px;
+
+				.heading {
+					min-height: 0;
+					height: 18px;
+					width: 100%;
+					float: left;
+					position: relative;
+					border: none;
+					border-top: 5px solid #413648;
+					color: #535046;
+    				letter-spacing: 2px;
+		    		line-height: 14px;
+			    	font-size: 14px;
+    				padding: 7px 0;
+    				text-transform: uppercase;
+				}
+			
+			
+				.workbox {
+					min-height: 0;
+					position: relative;
+					clear: both;
+					background-color: white;
+					border: 1px solid #e4e6ec;
+				}
+
+				.latest-news {
+					height: 747px;
+				}
+
+				.now-available {
+					height: 609px;
+				}
+
+				.now-available-second {
+					height: 547px;
+				}
+
+				.from-the-road {
+					height: 783px;
+				}
+
+				.latest-gallery {
+					height: 296px;
+				}
+
+				.latest-gallery-second {
+					height: 397px;
+				}
+
+				.latest-gallery-third {
+					height: 448px;
+				}
+
+				.livephish {
+					height: 124px;
+				}
+
+				.latest-tour {
+					height: 451px;
+				}
+
+				.latest-tour-second {
+					height: 451px;
+				}
+
+				.latest-photo-gallery {
+					height: 443px;
+				}
+
+				.latest-video {
+					height: 414px;
+				}
+
+				.maya-riviera {
+					height: 410px; 
+				}
+
+				.livephish-video {
+					height: 353px; 
+				}
+
+				.new-at-livephish {
+					height: 140px;
+					background-color: #e36740;
+				}
+
+				.load-more {
+					height: 60px;
+					background-color: #e36740;
+					text-align: center;
+
+					span {
+						color: white;
+						font-size: 24px;
+    					line-height: 60px;
+    					text-transform: uppercase;
+    					letter-spacing: 2px;
+					}
+				}
+			}
+
+			.right {
+					margin-right: 0;
+				}
+
+			.load-more-wrapper {
+				margin-bottom: 30px;
+			}
+		}
+	}
+}
+
+footer {
+	height: 42px;
+	padding: 40px 0;
+	background-color: white;
+
+	.footer {
+		margin: auto;
+		letter-spacing: 2px;
+		font-size: 12px;
+		text-transform: uppercase;
+
+		nav {
+
+			ul {
+				float: left;
+		        text-align: center;
+
+    			li {
+    				float: left;
+    				margin-right: 22px;
+    				color: #e36740;
+    			}
+			}
+
+			.copyright {
+				position: relative;
+				float: left;
+				clear: both;
+    			text-align: center;
+    			color: #535046;
+    			bottom: -18px;
+			}
+		}
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
